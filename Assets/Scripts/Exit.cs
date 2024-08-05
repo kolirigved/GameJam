@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Exit : MonoBehaviour
 {
+    public GameObject finalPortal; // The final portal to activate
     void Update()
     {
         // Find all game objects with the tag "Key"
@@ -12,8 +13,7 @@ public class Exit : MonoBehaviour
         // Check if the number of keys is zero
         if (keys.Length == 0)
         {
-            // Destroy the game object this script is attached to
-            Destroy(gameObject);
+            finalPortal.SetActive(false);
         }
     }
 }

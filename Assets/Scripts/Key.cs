@@ -11,6 +11,7 @@ public class Key : MonoBehaviour
         {
             // Destroy the key GameObject
             Destroy(gameObject);
+            
         }
     }
 }

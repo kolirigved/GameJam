@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
-{
+{   public Animator animator;
     public float speed = 5f;
     private bool axesInverted = false;
 
@@ -29,5 +29,14 @@ public class PlayerController : MonoBehaviour
         // Move the player
         Vector3 movement = new Vector3(moveHorizontal,moveVertical, 0.0f );
         transform.Translate(movement * speed * Time.deltaTime, Space.World);
+
+        if (movement != Vector3.zero)
+        {
+            animator.SetBool("IsWalking", true);
+        }
+        else
+        {
+            animator.SetBool("IsWalking", false);
+        }
     }
 }
