@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Portal : MonoBehaviour
 {
+    public Vector2 resetPosition; // The position to reset the player to
     /*public Transform resetTransform; // The transform to reset the player to
 
     private void OnCollisionEnter(Collision collision)
@@ -27,9 +28,7 @@ public class Portal : MonoBehaviour
             Debug.Log("Player collided with portal. Resetting position.");
             
             // Reset the player's transform to the origin (0,0,0)
-            collision.transform.position = Vector3.zero;
-            collision.transform.rotation = Quaternion.identity;
-            collision.transform.localScale = Vector3.one;
+            collision.transform.position = resetPosition;
         }
     }
 }

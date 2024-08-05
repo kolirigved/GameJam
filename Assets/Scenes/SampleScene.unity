@@ -8647,8 +8647,8 @@ Tilemap:
   - first: {x: 4, y: -17, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 5
-      m_TileSpriteIndex: 4
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8657,8 +8657,8 @@ Tilemap:
   - first: {x: 5, y: -17, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 6
-      m_TileSpriteIndex: 5
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8667,8 +8667,8 @@ Tilemap:
   - first: {x: 6, y: -17, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 7
-      m_TileSpriteIndex: 6
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -43736,7 +43736,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 427
+  - m_RefCount: 430
     m_Data: {fileID: 11400000, guid: dbcd15d3540e0403f84710c680912aae, type: 2}
   - m_RefCount: 452
     m_Data: {fileID: 11400000, guid: 42c30b3d0f4e641e6a4815f08ab9f0b4, type: 2}
@@ -43746,16 +43746,16 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 757aea652e35d4031b160ab975334c72, type: 2}
   - m_RefCount: 2419
     m_Data: {fileID: 11400000, guid: 40084a0ab9c4f4a5a83d4e5f4d74d040, type: 2}
-  - m_RefCount: 34
+  - m_RefCount: 33
     m_Data: {fileID: 11400000, guid: 220814fe975ba444295c2b715298b4ed, type: 2}
-  - m_RefCount: 31
+  - m_RefCount: 30
     m_Data: {fileID: 11400000, guid: 7ca649cef4ca04699b1d3614c5f09c94, type: 2}
-  - m_RefCount: 29
+  - m_RefCount: 28
     m_Data: {fileID: 11400000, guid: bf66edaac161d45518822eb669654d63, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileSpriteArray:
-  - m_RefCount: 427
+  - m_RefCount: 430
     m_Data: {fileID: -273797079, guid: 4acc39ab88c5d4f53b48a32901721833, type: 3}
   - m_RefCount: 921
     m_Data: {fileID: 929259948, guid: 4acc39ab88c5d4f53b48a32901721833, type: 3}
@@ -43763,11 +43763,11 @@ Tilemap:
     m_Data: {fileID: -1208025735, guid: 4acc39ab88c5d4f53b48a32901721833, type: 3}
   - m_RefCount: 2419
     m_Data: {fileID: 80173061, guid: 4acc39ab88c5d4f53b48a32901721833, type: 3}
-  - m_RefCount: 34
+  - m_RefCount: 33
     m_Data: {fileID: 50120224, guid: 4acc39ab88c5d4f53b48a32901721833, type: 3}
-  - m_RefCount: 31
+  - m_RefCount: 30
     m_Data: {fileID: -1720844640, guid: 4acc39ab88c5d4f53b48a32901721833, type: 3}
-  - m_RefCount: 29
+  - m_RefCount: 28
     m_Data: {fileID: 1777615952, guid: 4acc39ab88c5d4f53b48a32901721833, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -43849,6 +43849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9f22ac3efa6b4d36b0e8b8eebced01f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resetPosition: {x: -1.335, y: -3.93}
 --- !u!50 &224537786
 Rigidbody2D:
   serializedVersion: 4
@@ -44020,6 +44021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9f22ac3efa6b4d36b0e8b8eebced01f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resetPosition: {x: -1.335, y: -3.93}
 --- !u!50 &255704905
 Rigidbody2D:
   serializedVersion: 4
@@ -44329,6 +44331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9f22ac3efa6b4d36b0e8b8eebced01f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resetPosition: {x: -1.335, y: -3.93}
 --- !u!50 &819702683
 Rigidbody2D:
   serializedVersion: 4
@@ -44597,6 +44600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9f22ac3efa6b4d36b0e8b8eebced01f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resetPosition: {x: -1.335, y: -3.93}
 --- !u!50 &1067471830
 Rigidbody2D:
   serializedVersion: 4
@@ -56251,7 +56255,7 @@ Transform:
   m_GameObject: {fileID: 1742304473}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4997001, y: -3.8012, z: 0}
+  m_LocalPosition: {x: -1.335, y: -3.934, z: 0}
   m_LocalScale: {x: 0.29461047, y: 0.29461047, z: 0.29461047}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -56513,6 +56517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9f22ac3efa6b4d36b0e8b8eebced01f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resetPosition: {x: -1.335, y: -3.93}
 --- !u!1 &1818003593
 GameObject:
   m_ObjectHideFlags: 0
