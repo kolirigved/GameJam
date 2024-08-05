@@ -9,6 +9,10 @@ public class Quit : MonoBehaviour
     // Start is called before the first frame update
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        SceneManager.LoadScene("End");
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            SceneManager.LoadScene("End");
+            
+        }
     }
 }
