@@ -5,8 +5,6 @@ using UnityEngine;
 public class GameWin : MonoBehaviour
 {
     public Canvas gameWinCanvas;
-    public Canvas KeyCanvas;
-
     void Start()
     {
         // Set the game win canvas to be inactive at the start
@@ -20,7 +18,6 @@ public class GameWin : MonoBehaviour
         {
             // Display the game win canvas
             gameWinCanvas.gameObject.SetActive(true);
-            KeyCanvas.gameObject.SetActive(false);
 
             // Stop the game by setting time scale to 0
             Time.timeScale = 0;
